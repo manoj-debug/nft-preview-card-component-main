@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 3vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.img{
+    position: relative;
+    width: 40vh;
+    margin-bottom: 20px;
+    transition: all 1s;
+ 
+}
+.img1{
+   
+
+    
+    transition: all 1s;
+    
+    width: 100%;
+}
+.hello{
+   
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+}
+
+
+.eye{ 
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transition: all 1s; 
+    
+    
+}
+/* Hover effects starts */
+.hello:hover{
+    background-color: hsla(178, 100%, 50%, 0.475);
+   
+}
+.hello:hover .eye{
+    opacity: 1;
+}
+
+
+.content{
+
+}
+.header1{
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: all 1s;
+}
+.header1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.para1{
+    margin-bottom: 20px;
+    width: 40vh;
+    font-size: 14px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.eth-three{
+    display: flex;
+    justify-content: space-between;
+    width: 40vh;
+    margin-bottom: 20px;
+
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.three-day{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+hr{
+    margin-bottom: 20px;
+}
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38vh;
+    margin-bottom: 20px;
+
+}
+.profile-img{
+    width: 5vh;
+}
+
+.profile{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 100%;
+}
+.creation{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all 1s;
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+}
